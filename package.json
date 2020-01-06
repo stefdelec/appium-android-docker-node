@@ -1,0 +1,27 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start:watch": "nodemon index.ts",
+    "build": "tsc",
+    "start": "npm run build && node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/appium-service": "^5.18.2",
+    "appium": "^1.16.0",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.7.4",
+    "wd": "^1.11.4",
+    "webdriverio": "^5.18.4"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.4",
+    "@wdio/cli": "^5.18.4"
+  }
+}
