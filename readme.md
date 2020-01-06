@@ -19,4 +19,4 @@ that's all.
 
 ### launch test:
 
-```npm start```
+```npm i && npm start```
